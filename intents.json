@@ -1,0 +1,301 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Can you show me the menu?",
+        "What's on the menu?",
+        "Tell me about your dishes"
+      ],
+      "responses": [
+        "Sure, our workers will provide it",
+        "You can check out our menu from our servers"
+      ]
+    },
+    {
+      "tag": "specials",
+      "patterns": [
+        "Do you have any specials?",
+        "What are today's specials?",
+        "Tell me about your promotions"
+      ],
+      "responses": [
+        "Yes, we have some specials today. our team will let you know",
+        "Our current promotions will be updated by our workers"
+      ]
+    },
+    {
+      "tag": "food_types",
+      "patterns": [
+        "Tell me about your food options",
+        "What types of food do you offer?",
+        "Can you list the categories of dishes?"
+      ],
+      "responses": [
+        "Certainly! We have a diverse menu that includes the following categories:\n1. Vegetarian dishes\n2. Non-vegetarian dishes\n3. Beverages\n4. Starters\nFeel free to ask about specific items in any category!",
+        "We serve Indian food, Italian and Chinese as well"
+      ]
+    },
+
+    {
+      "tag": "reservation",
+      "patterns": [
+        "Can I make a reservation?",
+        "Do I need to book a table?",
+        "Reservation"
+      ],
+      "responses": [
+        "Certainly! You can make a reservation by calling us  or through our website.",
+        "Yes, we accept reservations. You can book a table online or give us a call."
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "How can I place an order?",
+        "Can I order online?",
+        "Tell me about your ordering process"
+      ],
+      "responses": [
+        "You can place an order online through our website",
+        "To order, you can visit our website or use our mobile app."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When do you open and close?",
+        "Tell me your business hours"
+      ],
+      "responses": [
+        "We are open from 8 am to 10 pm every day of the week.",
+        "Our business hours are 8 am to 10 pm from Monday to Sunday."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "Tell me how to find your restaurant"
+      ],
+      "responses": [
+        "You can find us easily using Google Maps or any navigation app.",
+        "Feel free to use Google Maps for directions."
+      ]
+    },
+
+    {
+      "tag": "dishes",
+      "patterns": [
+        "Tell me about your signature dishes",
+        "What are your best dishes?",
+        "Recommend me something from the menu"
+      ],
+      "responses": [
+        "Certainly! Our signature dishes include fried rice and cutlets. They are highly recommended by our customers.",
+        "For a delightful experience, try our popular dishes: fried rice and cutlets. They are crafted with the finest ingredients."
+      ]
+    },
+    {
+      "tag": "kid_friendly",
+      "patterns": [
+        "Do you have kid-friendly options?",
+        "Is your restaurant suitable for children?",
+        "Tell me about your kids' menu"
+      ],
+      "responses": [
+        "Absolutely! We have a special kids' menu with a variety of tasty and kid-friendly options.",
+        "Yes, our restaurant is kid-friendly, and we offer a dedicated menu for children with delicious and wholesome choices."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have free Wi-Fi?",
+        "Is there Wi-Fi?",
+        "Tell me about your internet connection"
+      ],
+      "responses": [
+        "Yes, we offer free Wi-Fi for our customers. Ask our staff for the password!",
+        "Certainly! We provide free Wi-Fi. Just ask our staff for the login details."
+      ]
+    },
+    {
+      "tag": "vegan_options",
+      "patterns": [
+        "Do you have vegan options?",
+        "Tell me about your vegan dishes",
+        "Is the menu vegan-friendly?"
+      ],
+      "responses": [
+        "Absolutely! We have a variety of delicious vegan options on our menu.",
+        "Yes, our menu includes a selection of tasty vegan dishes to cater to different preferences."
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "Can you accommodate food allergies?",
+        "Do you have an allergy-friendly menu?",
+        "Tell me about your allergen information"
+      ],
+      "responses": [
+        "Certainly! Please inform our staff about any allergies, and we'll do our best to accommodate your needs.",
+        "We take allergies seriously. Let us know your specific requirements, and we'll ensure a safe dining experience."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Do you host events?",
+        "Tell me about your events",
+        "Any upcoming special events?"
+      ],
+      "responses": [
+        "Yes, we host events! Check our website for upcoming events and special occasions.",
+        "We regularly host events. Keep an eye on our website for information on upcoming happenings and celebrations."
+      ]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": [
+        "Do you have a loyalty program?",
+        "Tell me about your rewards program",
+        "How can I join your loyalty program?"
+      ],
+      "responses": [
+        "Absolutely! We have a fantastic loyalty program. Ask our staff for details on how to join and start earning rewards.",
+        "Yes, we offer a loyalty program for our valued customers. Inquire with our staff to learn more and sign up."
+      ]
+    },
+    {
+      "tag": "veg dishes",
+      "patterns": [
+        "Tell me about your vegetarian dishes",
+        "What veg options do you have?",
+        "Recommend a vegetarian dish"
+      ],
+      "responses": [
+        "We offer a delightful range of vegetarian dishes, including veg fried rice,veg cutlet,veg soup. They are perfect for our vegetarian guests.",
+        "Our vegetarian options are a hit! Try veg fried rice,veg cutlet,veg soup for a delicious meat-free experience."
+      ]
+    },
+    {
+      "tag": "non veg dishes",
+      "patterns": [
+        "Tell me about your non-vegetarian dishes",
+        "What non-veg options do you have?",
+        "Recommend a non-vegetarian dish"
+      ],
+      "responses": [
+        "If you're a fan of non-vegetarian delights, you'll love our chicken fried rice, chicken cutlet, chicken soup. They're packed with flavor and satisfaction.",
+        "Indulge in the rich flavors of our non-vegetarian dishes, such as chicken fried rice, chicken cutlet, chicken soup. They're a carnivore's delight!"
+      ]
+    },
+     {
+      "tag": "parking",
+      "patterns": [
+        "Is there parking available?",
+        "Tell me about your parking facilities",
+        "Where can I park my car?"
+      ],
+      "responses": [
+        "Yes, we have ample parking available for our customers. You can park in the designated area near the entrance.",
+        "Parking is convenient and free of charge. Feel free to use our designated parking spaces located close to the entrance."
+      ]
+    },
+    {
+      "tag": "play_area",
+      "patterns": [
+        "Do you have a play area for children?",
+        "Is there a kids' play zone?",
+        "Tell me about the play facilities for children"
+      ],
+      "responses": [
+        "Certainly! We have a dedicated play area for children, equipped with fun and safe activities to keep them entertained.",
+        "Yes, our restaurant features a fantastic play area for kids. Let your little ones have a great time while you enjoy your meal."
+      ]
+    },
+        {
+      "tag": "home_delivery",
+      "patterns": [
+        "Do you offer home delivery?",
+        "Is there an option for delivery?",
+        "Tell me about your home delivery service"
+      ],
+      "responses": [
+        "Yes, we offer home delivery services! You can place your order online through our website or by calling [delivery hotline].",
+        "Enjoy our delicious food in the comfort of your home. We provide home delivery services. Order online or call [delivery hotline] to place your order."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Can I give feedback?",
+        "Do you appreciate feedback?",
+        "I have a suggestion"
+      ],
+      "responses": [
+        "Absolutely! We appreciate your feedback. You can leave your comments on our website or speak to a manager on-site.",
+        "We welcome feedback! Feel free to share your thoughts on our website or with our staff."
+      ]
+    },
+    {
+      "tag": "chef",
+      "patterns": [
+        "Who is the chef?",
+        "Tell me about the chef",
+        "Can I meet the chef?"
+      ],
+      "responses": [
+        "Our talented chef bring passion and creativity to every dish.",
+        "Our chef is dedicated to crafting delightful culinary experiences for our guests."
+      ]
+    }
+  ]
+}
